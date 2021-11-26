@@ -1,0 +1,17 @@
+﻿@model WebApplication3.Models.DataViewModels
+@{
+    ViewBag.Title = "ById";
+}
+
+<h1>ById</h1>
+<h2>Parameter: @Model.ParameterValue</h2>
+
+<table class="table table-hovera small">
+
+    @for (int i = 1; i < 10; i++)
+    {
+        <tr><td>@i</td></tr>
+    }
+
+</table>
+
